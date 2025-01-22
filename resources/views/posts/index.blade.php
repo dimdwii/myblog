@@ -1,3 +1,5 @@
+@extends('layouts.app1')
+@section('content')
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,7 +11,7 @@
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
 </head>
     <body style="background: lightgray">
-
+    
         <div class="container mt-5">
             <div class="row">
                 <div class="col-md-12">
@@ -75,3 +77,5 @@
 
     </body>
 </html>
+@endsection
+
